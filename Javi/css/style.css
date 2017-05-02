@@ -1,0 +1,155 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 100%;
+    background: #313e5c;
+}
+
+/*Contendor principal que le da el ancho a la pagina */
+.contenedor{
+    width: 960px;
+    margin: 0 auto;
+    background: #b1b1b1;
+}
+/* Fin de contendor principal*/
+
+main section{
+    overflow: hidden;
+    background: #1b5a76;
+}
+
+/* Menu de la web */
+
+header .Logo{
+    color: #f2f2f2;
+    font-size: 50px;
+    float: left;
+}
+
+ 
+header nav {
+	background:#3498db;
+	margin-bottom:10px;
+}
+ 
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+header nav ul li {
+	float: left;
+}
+ 
+header nav ul li a {
+	display: block;
+	padding:20px;
+	color:#fff;
+	text-decoration: none;
+}
+ 
+header nav ul li a:hover {
+	background:#2980b9;
+}
+
+/* Fin de Menu */
+
+/* Inicio de sección sobre mi */
+.imagen-sobre-mi img{
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 150px;
+    width: 150px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+.Encabezado{
+    background: white;
+}
+
+.Texto{
+    background: pink;
+}
+
+/* Fin de sección sobre mi */
+
+/* Inicio de sección Skills*/
+
+.Encabezado-Skills{
+    
+}
+.lista-skills{
+ background:green;   
+}
+
+.html{
+   
+}
+.css{
+     
+}
+.php{}
+.c{}
+.js{}
+.java{}
+/* Fin de sección Skills*/
+
+/* Inicio de sección Trabajos*/
+.Encabezado-Sobre-Mi{
+    
+}
+.imagen-uno-trabajos{
+    background: yellow;
+    float: left;
+}
+
+.imagen-dos-trabajos{
+    background: yellow;
+    float: left;
+}
+
+.imagen-tres-trabajos{
+    background: yellow;
+    float: left;
+}
+
+/* Fin de sección Trabajos*/
+
+/*Seccion de Formulario*/
+
+.Formulario form{
+    display: block;
+}
+
+/*Fin de Formulario*/
+
+/* Inicio de footer */
+footer{
+    width: 100%;
+    background: yellow;
+     overflow: hidden;   
+}
+
+
+.Facebook img{
+   
+}
+
+.Linkedin img{
+    
+}
+
+.Twitter img{
+   
+}
+
+/*Fin de footer */
