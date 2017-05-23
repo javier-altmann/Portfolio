@@ -26,13 +26,8 @@ p{
     max-width: 100%;
     height: auto;
 }
-/*Contendor principal que le da el ancho a la pagina */
-.container{
-    width: 960px;
-    margin: 0 auto;
-  
-}
-/* Fin de contendor principal*/
+
+
 
 main section{
     overflow: hidden;
@@ -47,7 +42,7 @@ main section.trabajos{
 /* Menu de la web */
 
 
-header .Logo{
+header .logo{
     color: #f2f2f2;
     font-size: 50px;
     float: left;
@@ -96,11 +91,11 @@ header nav ul li a:hover {
    
 }
 
-.Encabezado{
+.encabezado{
     background: white;
 }
 
-.Texto {
+.texto {
    text-align: center;
     margin-top: 50px;
    
@@ -109,6 +104,18 @@ header nav ul li a:hover {
 /* Fin de sección sobre mi */
 
 /* Inicio de sección Skills*/
+
+.lista-skills {
+    text-align: center;
+}
+ 
+.lista-skills article {
+    display: inline-block;
+    padding: 0 20px;
+}
+.lista-skills article h5{
+    line-height: 30px;
+}
 
 
 
@@ -165,7 +172,7 @@ header nav ul li a:hover {
 
 /*Seccion de Formulario*/
 
- input,.Formulario,textarea {
+ input,.formulario,textarea {
     display: block;
     padding: 10px;
     margin-bottom: 30px;
@@ -233,18 +240,6 @@ Boton para formulario
     width: 600px;
 }
  
-.lista-skills {
-    text-align: center;
-}
- 
-.lista-skills article {
-    display: inline-block;
-    padding: 0 20px;
-}
-.lista-skills article h5{
-    line-height: 30px;
-}
-
 
 
  
