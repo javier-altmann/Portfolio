@@ -3,12 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <title> </title>
+    <title>Prueba de pagina web </title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/clear.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
+    <!--<div class="container">  -->
         <header>
            <div class="Logo">
                Logo
@@ -24,7 +27,7 @@
         </header>
 
         <main>
-            <section>
+            <section class="clearfix">
                 <article>
                     <div class="Foto">
 
@@ -42,12 +45,14 @@
                </div>
                 <article>
                     <div class="Texto">
-                       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+                         </p>
                     </div>
                 </article>
             </section>
 
-            <section>
+            <section class="clearfix">
                 <article>
                     <div class="Encabezado-Skills">
                         <h1>Skills</h1>
@@ -55,18 +60,52 @@
                 </article>
 
                 <div class="lista-skills">
-                    <ul>
-                        <li class="html">HTML</li>
-                        <li class="css">CSS</li>
-                        <li class="php">PHP</li>
-                        <li class="c">C# MVC</li>
-                        <li class="js">Javascript</li>
-                        <li class="java">Java</li>
-                    </ul>
+                 
+                <article>
+                    <div class="imagen-html5">
+                        <img class="img_r" src="img/html5.png" alt="">
+                       <h5>HTML5</h5>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="imagen-css">
+                        <img class="img_r" src="img/css-3.png" alt="">
+                        <h5>CSS</h5>
+                    </div>
+                </article>
+
+                <article>
+                    <div class="imagen-php">
+                        <img class="img_r" src="img/php.png" alt="">
+                            <h5>PHP</h5>
+                    </div>
+                </article>
+                
+                 <article>
+                    <div class="imagen-c#">
+                        <img class ="img_r" src="img/c.png" alt="">
+                            <h5>C#</h5>
+                    </div>
+                </article>
+                
+                 <article>
+                    <div class="imagen-js">
+                        <img class="img_r" src="img/js.png" alt="">
+                            <h5>JS</h5>
+                    </div>
+                </article>
+                
+                 <article>
+                    <div class="imagen-java">
+                        <img class="img_r" src="img/java.png" alt="">
+                            <h5>JAVA</h5>
+                    </div>
+                </article>
                 </div>
             </section>
 
-            <section>
+            <section class="clearfix trabajos">
                 <article>
                     <div class="Encabezado">
                         <h1>Trabajos</h1>
@@ -75,65 +114,67 @@
 
                 <article>
                     <div class="imagen-uno-trabajos">
-                        <img src="img/sistema1.png" alt="">
-                        <p>Parrafo de la descripción del primer trabajo realizado por mi</p>
+                        <img class="img_r" src="img/smartphone.png" alt="">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laborum rem ipsam nobis cupiditate repellat, atque possimus ipsa numquam similique autem quas accusamus iusto, vel consequatur, distinctio minima voluptatibus deleniti.</p>
                     </div>
                 </article>
 
                 <article>
                     <div class="imagen-dos-trabajos">
-                        <img src="img/Sistema2.png" alt="">
-                        <p>Parrafo de la descripción del segundo trabajo realizado por mi</p>
+                        <img class="img_r" src="img/online-shop.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quo odit alias autem provident aliquid aperiam, recusandae magnam hic, dolores dicta! A corporis eius eaque, voluptatem, fuga quae provident saepe?</p>
                     </div>
                 </article>
 
                 <article>
                     <div class="imagen-tres-trabajos">
-                        <img src="img/Sistema3.png" alt="">
-                        <p>Parrafo de la descripción del tercer trabajo realizado por mi</p>
+                        <img class="img_r" src="img/transaction.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nobis voluptate consequatur maxime quo dolorum blanditiis quos molestiae labore tempora. Eius rem numquam, corporis qui architecto ducimus aut harum repellendus.</p>
                     </div>
                 </article>
             </section>
 
             <section>
+               <article>
+                    <div class="Encabezado">
+                        <h1>Contacto</h1>
+                    </div>
+                </article>
                 <article>
                    <div class="Formulario">
                     <form action="#">
-                        Nombre:<input type="text" id="nombre" name="nombre"> 
-                        Apellido: <input type="text" id="apellido" name="apellido"> 
-                        Email: <input type="email" id="email" name="email" placeholder="ejemplo@hotmail.com" required/>
-                        Razon: <textarea name="message" cols="40" rows="6" required></textarea>
-                        <button class="submit" type="submit">Enviar mensaje</button>
+                       <input type="text" id="nombre" name="nombre" placeholder="Nombre"> 
+                       <input type="email" id="email" name="email"  placeholder="Email" required/>
+                        <textarea name="message" cols="40" rows="6" required placeholder="Escriba aquí"></textarea>
+                        <button class="btn" type="submit">Enviar mensaje</button>
                     </form>
                     </div>
                 </article>
             </section>
 
         </main>
-
+    
         <footer>
             <section>
-                <article>
-                    <div class="Facebook">
+                <ul>
+                    <li>
                         <img src="img/facebook.svg" alt="">
-                    </div>
-                </article>
-                
-                <article>
-                    <div class="Linkedin">
+                        <a href="#">facebook.com/page</a>
+                    </li>
+                    <li>
                         <img src="img/linkedin.svg" alt="">
-                    </div>
-                </article>
-                <article>
-                    <div class="Twitter">
+                        <a href="#">facebook.com/page</a>
+                    </li>
+                    <li>
                         <img src="img/twitter.svg" alt="">
-                    </div>
-                </article>
+                        <a href="#">facebook.com/page</a>
+                    </li>
+                </ul>
             </section>
         </footer>
 
+<!--</div> ---->
 
-    </div>
 </body>
 
 </html>
